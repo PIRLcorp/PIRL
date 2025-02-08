@@ -30,4 +30,5 @@ class IngredientDiscovery:
         # Make predictions
         y_pred = self.model.predict(X_test)
         accuracy = accuracy_score(y_test, y_pred)
-        return accuracy, y_pred
+        return accuracy, y_pred 
+ 
